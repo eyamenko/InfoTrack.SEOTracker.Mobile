@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms" x:Class="InfoTrack.SEOTracker.Mobile.Pages.AllTimePage" Title="All Time Results" Icon="Calendar-25.png">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,30,20,0">
+            <oxy:PlotView x:Name="ChartView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" IsVisible="false" />
+            <ActivityIndicator x:Name="IndicatorView" Color="Blue" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
